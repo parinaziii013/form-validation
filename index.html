@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sign-in Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="divider">
+        <div class="container">
+            
+            <h1>Welcome Back!</h1>
+            <p>Don't have an account, <a href="#">Sign Up</a></p>
+
+            <div class="fields">
+
+                <div class="info-input">
+                    <label for="input-name">Name</label>
+                    <input type="text" name="input-name" id="input-name">
+                    <p class="name-input-warning">Less than 15 English characters
+                    </p>
+                </div>
+
+                <div class="info-input">
+                    <label for="input-email">Email</label>
+                    <input type="email" name="input-email" id="input-email" placeholder="email@example.com">
+                    <p class="email-input-warning">Please write a valid Email type</p>
+                </div>
+
+                <div class="info-input">
+                    <label for="input-password">Password</label>
+                    <input type="password" name="input-password" id="input-password">
+                    <div class="none-visible-icon">
+                        <span class="material-symbols-outlined" style="color: #8699DA;">visibility_off</span>
+                    </div>
+                    <div class="visibile-icon">
+                        <span class="material-symbols-outlined" style="color: #8699DA;">visibility</span>
+                    </div>
+                    <p class="password-input-warning">
+                        More than 8 characters; includes lower and UPPER characters and numbers
+                    </p>
+                </div>
+
+                <div class="submit-input">
+                    <input type="submit" class="cursor" name="input-submit" id="input-submit">
+                </div>
+
+            </div>
+        </div>
+        <div class="image">
+            <img src="./two-person.svg" alt="two-person">
+        </div>
+    </div>
+    <div class="welcome-page">
+        <h1>Thanks for Coming Back!</h1>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>
